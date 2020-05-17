@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AgeinMinutes</string>
+    <string name="calculate_your_age">CALCULATE YOUR AGE</string>
+    <string name="below">IN MINUTES</string>
+    <string name="select_dob">SELECT DATE OF BIRTH</string>
+    <string name="your_dob">YOUR DOB</string>
 </resources>
