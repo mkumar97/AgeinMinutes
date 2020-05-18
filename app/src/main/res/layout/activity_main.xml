@@ -24,13 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="#683D9F5"
+        android:background="@color/backgroundColor"
         android:text="@string/below"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btndatepicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -39,13 +39,33 @@
         android:text="@string/select_dob" />
 
     <TextView
-        android:id="@+id/selected_date"
+        android:id="@+id/selecteddate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:textSize="36dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:textSize="20sp"
         android:textColor="#844046"
         android:text="@string/your_dob" />
+
+    <TextView
+        android:id="@+id/selecteddateinmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes you Wasted till now"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
 
 
 </LinearLayout>
